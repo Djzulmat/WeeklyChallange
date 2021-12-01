@@ -21,7 +21,7 @@ public class RockPaperScissors {
 				
 				result = "TIE";
 				
-			} else if ((choice1.equals(choicesToLower.get(0)) && choice2.equals(choicesTolower.get(2).toLowerCase())) || (choice1.equals(choicesToLower.get(1)) && choice2.equals(choicesToLower.get(0))) || (choice1.equals(choicesToLower.get(2)) && choice2.equals(choicesToLower.get(1)))) {
+			} else if ((choice1.equals(choicesToLower.get(0)) && choice2.equals(choicesToLower.get(2))) || (choice1.equals(choicesToLower.get(1)) && choice2.equals(choicesToLower.get(0))) || (choice1.equals(choicesToLower.get(2)) && choice2.equals(choicesToLower.get(1)))) {
 				
 				result = "Player 1 wins";
 				
